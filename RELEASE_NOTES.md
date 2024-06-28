@@ -1,6 +1,20 @@
-### 2/18/2024
-- TO DO
+### 5/20/2024
+- rolled back TTP to Titan Large in text generation
+- rolled back Claude 3 to 2.1 in basic testing of RAG folder (0_ notebook)
+- fixed utility file saying "Done!" every 30 seconds. Now it just does the dots. Can improve further but this should work for now.
+- fixed %store etc. issues in RAG folder
 
+### 5/10/2024
+- changed pre-req notebook
+    - Titan text premier (TTP) tested and works
+    - Titan emb v2 tested and works
+    - claude Haiku v2 instead of v2 in the messages API 
+- changed few 01_Text_generation notebooks:
+    - 00 now has both Claude and TTP
+    - 01 now uses TTP
+    - 02 now uses Claude and TTP examples
+    - 03, depending on the model can answer even though for demonstration purposes we want the model to say it is unsure. Sticking to Titan Large for this, for now.
+    - 04 changed readme to encourage customers to try TTP.
 
 ### 2/15/2024
 
