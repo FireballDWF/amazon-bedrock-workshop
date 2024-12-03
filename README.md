@@ -1,6 +1,8 @@
-# Amazon Bedrock Workshop
+# Amazon Bedrock Workshop [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
-This hands-on workshop, aimed at developers and solution builders, introduces how to leverage foundation models (FMs) through [Amazon Bedrock](https://aws.amazon.com/bedrock/).
+This hands-on workshop, aimed at developers and solution builders, introduces how to leverage foundation models (FMs) through [Amazon Bedrock](https://aws.amazon.com/bedrock/). This code goes alongside the self-paced or instructor lead workshop here - https://catalog.us-east-1.prod.workshops.aws/amazon-bedrock/en-US
+
+**Please follow the prerequisites listed in the link above or ask your AWS workshop instructor how to get started.**
 
 Amazon Bedrock is a fully managed service that provides access to FMs from third-party providers and Amazon; available via an API. With Bedrock, you can choose from a variety of models to find the one that’s best suited for your use case.
 
@@ -8,24 +10,25 @@ Within this series of labs, you'll explore some of the most common usage pattern
 
 Labs include:
 
-- **01 - Text Generation** \[Estimated time to complete - 45 mins\]
+- **01 - Text Generation** \[Estimated time to complete - 45 mins\] [![Test - pass](https://img.shields.io/badge/Test-pass-2ea44f)](https://)
     - Text generation with Bedrock
     - Text summarization with Titan and Claude
     - QnA with Titan
     - Entity extraction
-- **02 - Knowledge bases and RAG** \[Estimated time to complete - 45 mins\]
+- **02 - Knowledge bases and RAG** \[Estimated time to complete - 45 mins\] [![Test - fail](https://img.shields.io/badge/Test-fail-red)](https://)
     - Managed RAG retrieve and generate example
-    - Langchain RAG retireve and generate example
-- **03 - Model customization** \[Estimated time to complete - 30 mins\]
-    - Coming soon
-- **04 - Image and Multimodal** \[Estimated time to complete - 30 mins\]
+    - Langchain RAG retrieve and generate example
+- **03 - Model customization** \[Estimated time to complete - 30 mins\] [![Test - pass](https://img.shields.io/badge/Test-pass-2ea44f)](https://)
+    - Fine tuning Titan lite, Llama2
+    - **Note** - _You must run this on your own AWS account, and this will not work on AWS Workshop Studio!_
+- **04 - Image and Multimodal** \[Estimated time to complete - 30 mins\] [![Test - fail](https://img.shields.io/badge/Test-fail-red)](https://)
     - Bedrock Titan image generator
     - Bedrock Stable Diffusion XL
     - Bedrock Titan Multimodal embeddings
-- **05 - Agents** \[Estimated time to complete - 30 mins\]
+- **05 - Agents** \[Estimated time to complete - 30 mins\] [![Test - pass](https://img.shields.io/badge/Test-pass-2ea44f)](https://)
     - Customer service agent
     - Insurance claims agent
-- **06 - Open source examples (optional)** \[Estimated time to complete - 30 mins\]
+- **06 - Open source examples (optional)** \[Estimated time to complete - 30 mins\] [![Test - fail](https://img.shields.io/badge/Test-fail-red)](https://)
     - Langchain Text Generation examples
     - Langchain KB RAG examples
     - Langchain Chatbot examples
@@ -93,5 +96,11 @@ git clone https://github.com/aws-samples/amazon-bedrock-workshop.git
 cd amazon-bedrock-workshop
 ```
 
+[![HitCount](https://hits.dwyl.com/aws-samples/amazon-bedrock-workshop.svg?style=flat-square&show=unique)](http://hits.dwyl.com/aws-samples/amazon-bedrock-workshop)
+
 
 You're now ready to explore the lab notebooks! Start with [00_Prerequisites/bedrock_basics.ipynb](00_Prerequisites/bedrock_basics.ipynb) for details on how to install the Bedrock SDKs, create a client, and start calling the APIs from Python.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=aws-samples/amazon-bedrock-workshop&type=Date)](https://star-history.com/#aws-samples/amazon-bedrock-workshop&Date)
